@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bexdb": {
+      "command": "npx",
+      "args": ["-y", "@bexdb/mcp@beta"],
+      "env": {
+        "BEXDB_API_TOKEN": "${user_config.api_token}",
+        "BEXDB_CONFIG_FILE": "${user_config.config_file}"
+      }
+    }
+  }
+}

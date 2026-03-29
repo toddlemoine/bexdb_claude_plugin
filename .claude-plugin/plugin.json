@@ -1,0 +1,21 @@
+{
+  "name": "bexdb",
+  "version": "1.0.0",
+  "description": "BexDB MCP server for Claude Code",
+  "author": {
+    "name": "Todd Lemoine"
+  },
+  "repository": "https://github.com/toddlemoine/bexdb_claude_plugin",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json",
+  "userConfig": {
+    "api_token": {
+      "description": "BexDB API token (leave blank if BEXDB_API_TOKEN is already set in your environment)",
+      "sensitive": true
+    },
+    "config_file": {
+      "description": "Path to a BexDB config file containing your API token (optional alternative to entering it above)",
+      "sensitive": false
+    }
+  }
+}
